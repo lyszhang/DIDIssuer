@@ -1,4 +1,4 @@
-module DIDIssuer
+module github.com/lyszhang/DIDIssuer
 
 go 1.15
 

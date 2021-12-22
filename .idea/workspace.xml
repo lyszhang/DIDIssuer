@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e55b3385-f45a-4b9b-8b83-24a8400627c6" name="Default Changelist" comment="" />
+    <list default="true" id="e55b3385-f45a-4b9b-8b83-24a8400627c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DIDIssuer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DIDIssuer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,18 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GOROOT" url="file://$USER_HOME$/.gvm/gos/go1.16" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -26,8 +45,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -37,61 +61,81 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RunManager" selected="Go Test.TestCredentialSubjectUnmarshal in DIDIssuer/model (2)">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="DIDIssuer" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lyszhang/DIDIssuer" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCredentialSubjectMarshal in DIDIssuer/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="DIDIssuer" />
       <working_directory value="$PROJECT_DIR$/model" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="DIDIssuer/model" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <pattern value="^\QTestCredentialSubjectMarshal\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCredentialSubjectUnmarshal in DIDIssuer/model (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="DIDIssuer" />
       <working_directory value="$PROJECT_DIR$/model" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="DIDIssuer/model" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <pattern value="^\QTestCredentialSubjectUnmarshal\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCredentialSubjectUnmarshal in DIDIssuer/model (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="DIDIssuer" />
       <working_directory value="$PROJECT_DIR$/model" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="DIDIssuer/model" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <pattern value="^\QTestCredentialSubjectUnmarshal\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCredentialSubjectUnmarshal in DIDIssuer/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="DIDIssuer" />
       <working_directory value="$PROJECT_DIR$/model" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="DIDIssuer/model" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <pattern value="^\QTestCredentialSubjectUnmarshal\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestVerifyClaimContent in DIDIssuer/router" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="DIDIssuer" />
       <working_directory value="$PROJECT_DIR$/router" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="DIDIssuer/router" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <pattern value="^\QTestVerifyClaimContent\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="DIDIssuer" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/lyszhang/DIDIssuer" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -110,64 +154,11 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="581" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616842621617">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="581" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1616842621617" />
-    <state width="708" height="640" key="DebuggerActiveHint" timestamp="1617956524958">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="708" height="640" key="DebuggerActiveHint/0.0.1792.1120@0.0.1792.1120" timestamp="1617956524958" />
-    <state width="1750" height="386" key="GridCell.Tab.0.bottom" timestamp="1620185649824">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="386" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1620185649824" />
-    <state width="1750" height="386" key="GridCell.Tab.0.center" timestamp="1620185649823">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="386" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1620185649823" />
-    <state width="1750" height="386" key="GridCell.Tab.0.left" timestamp="1620185649822">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="386" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1620185649822" />
-    <state width="1750" height="386" key="GridCell.Tab.0.right" timestamp="1620185649823">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="386" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1620185649823" />
-    <state width="1750" height="386" key="GridCell.Tab.1.bottom" timestamp="1620185649827">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="386" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1620185649827" />
-    <state width="1750" height="386" key="GridCell.Tab.1.center" timestamp="1620185649826">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="386" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1620185649826" />
-    <state width="1750" height="386" key="GridCell.Tab.1.left" timestamp="1620185649826">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="386" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1620185649826" />
-    <state width="1750" height="386" key="GridCell.Tab.1.right" timestamp="1620185649827">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="386" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1620185649827" />
-    <state width="896" height="560" key="XDebugger.FullValuePopup" timestamp="1620094694208">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="896" height="560" key="XDebugger.FullValuePopup/0.0.1792.1120@0.0.1792.1120" timestamp="1620094694208" />
-    <state x="598" y="270" width="596" height="580" key="find.popup" timestamp="1620476703965">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="598" y="270" width="596" height="580" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1620476703965" />
-    <state x="722" y="325" key="refactoring.ChangeSignatureDialog" timestamp="1616842267942">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="722" y="325" key="refactoring.ChangeSignatureDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1616842267942" />
-    <state x="626" y="473" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1617956611715">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="626" y="473" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1617956611715" />
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn" />
+      </map>
+    </environment>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
