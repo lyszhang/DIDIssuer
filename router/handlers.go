@@ -1,9 +1,9 @@
 package router
 
 import (
-	"DIDIssuer/log"
-	"DIDIssuer/model"
-	"DIDIssuer/utils"
+	"github.com/lyszhang/DIDIssuer/log"
+	"github.com/lyszhang/DIDIssuer/model"
+	"github.com/lyszhang/DIDIssuer/utils"
 	hub "github.com/StupidTAO/DIDHub/model"
 	"errors"
 	"fmt"

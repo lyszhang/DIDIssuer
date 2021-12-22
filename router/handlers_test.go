@@ -1,7 +1,7 @@
 package router
 
 import (
-	"DIDIssuer/log"
+	"github.com/lyszhang/DIDIssuer/log"
 	"testing"
 )
 

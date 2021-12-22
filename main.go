@@ -1,8 +1,8 @@
 package main
 
 import (
-	"DIDIssuer/log"
-	"DIDIssuer/router"
+	"github.com/lyszhang/DIDIssuer/log"
+	"github.com/lyszhang/DIDIssuer/router"
 	"fmt"
 	"net/http"
 

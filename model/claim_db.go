@@ -1,8 +1,8 @@
 package model
 
 import (
-	"DIDIssuer/db"
 	"fmt"
+	"github.com/lyszhang/DIDIssuer/db"
 	"time"
 )
 

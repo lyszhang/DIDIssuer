@@ -1,7 +1,7 @@
 package model
 
 import (
-	"DIDIssuer/utils"
+	"github.com/lyszhang/DIDIssuer/utils"
 	"time"
 	"testing"
 )
